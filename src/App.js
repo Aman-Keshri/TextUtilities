@@ -35,6 +35,7 @@ function App() {
     }
     else{
       setMode('light');
+      console.log('LightMode');
       document.body.style.backgroundColor = 'white';
       document.body.style.color = '#212529';
       showAlert("Light Mode Enabled", "success");
